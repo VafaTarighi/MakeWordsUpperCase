@@ -11,8 +11,11 @@ Going national
 
         public static void main(String[] args) throws IOException {
             BufferedReader reader = new BufferedReader(new InputStreamReader(System.in));
+	    System.out.println("This program make the letters uppercase.");
+	    System.out.print("Enter a Text: ");
             String s = reader.readLine();//Getting the String.
             String[] str = new String[s.length()];
+
             //write your code here
             for (int i = 0; i < s.length(); i++) {
                 str[i] = s.substring(i, i + 1);
