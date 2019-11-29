@@ -11,7 +11,7 @@ Going national
 
         public static void main(String[] args) throws IOException {
             BufferedReader reader = new BufferedReader(new InputStreamReader(System.in));
-            String s = reader.readLine();
+            String s = reader.readLine();//Getting the String.
             String[] str = new String[s.length()];
             //write your code here
             for (int i = 0; i < s.length(); i++) {
@@ -25,7 +25,7 @@ Going national
             for (int i = 0; i < str.length; i++) {
                 if (str[i].equals(" ")) {
                     if (!str[i + 1].equals(" ")) {
-                        str[i + 1] = str[i + 1].toUpperCase();
+                        str[i + 1] = str[i + 1].toUpperCase();//Shifting letters.
                     }
                 }
                 upS.append(str[i]);
