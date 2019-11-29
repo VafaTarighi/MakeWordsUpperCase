@@ -30,6 +30,6 @@ Going national
                 }
                 upS.append(str[i]);
             }
-            System.out.println(upS);
+            System.out.println(upS);//printing resaults.
         }
 }
